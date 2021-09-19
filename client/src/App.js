@@ -1,40 +1,25 @@
-import React, {useState, useEffect} from 'react';
-import axios from 'axios';
-import BACKEND_URL from "./config";
+import React from "react";
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from '../src/components/Home';
+import Login from '../src/components/Login';
+import Navbar from '../src/components/Navbar';
+
+
 
 
 function App() {
-
-  const [items, setItems] = useState([]);
-
-
-  useEffect(() => {
-    const getData = async () => {
-      const res = await axios.get(BACKEND_URL + "/blogs" );
-      setItems(res.data);
-
-
-    };
-    getData();
-//comment
-
-  }, []);
-
+  
   return (
+    <Router>
     <div className="App">
-    <h1>hello</h1>
-    {
-      items.map((item) => {
-        return(
-          <div className="">
-            <ul>
-              <li>{item.title}</li>
-            </ul>
-          </div>
-        )
-      })
-    }
+    <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/login" component={Login} />
+      </Switch>
+      
     </div>
+    </Router>
   );
 }
 
