@@ -1,0 +1,27 @@
+#home{
+    background-color: black;
+    padding: 150px;
+}
+#about{
+   
+}
+#history{
+    
+}
+#portfolio{
+   
+}
+#contact{
+    
+}
+#links{
+    position: absolute;
+    bottom: 100px;
+    left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links{
+    padding: 20px;
+}
