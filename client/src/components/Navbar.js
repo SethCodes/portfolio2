@@ -1,13 +1,16 @@
 import React from "react";
+import '../css/Navbar.css';
 import {Link} from 'react-router-dom';
+import logo from '../images/GBLogoSlim.png';
+
 
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-transparent navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          <img src={logo} alt=""/>
         </a>
         <button
           className="navbar-toggler"

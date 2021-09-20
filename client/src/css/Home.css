@@ -1,7 +1,36 @@
 #home{
-    background-color: black;
-    padding: 150px;
+    height: 100vh;
+    padding: 150px 80px 150px 150px;
 }
+#hero{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+#hero h7{
+    font-size: 14px;
+    font-family: 'Fira Code', monospace;
+
+}
+
+
+.name{
+font-size: 3em;
+font-weight: 700;
+letter-spacing: 0.2rem;
+}
+
+.title{
+    /* font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.2rem; */
+color:#696D7D;
+padding-bottom: 20px;
+}
+
+
 #about{
    
 }
@@ -15,13 +44,13 @@
     
 }
 #links{
-    position: absolute;
-    bottom: 100px;
-    left: 75px;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
     display: flex;
     flex-direction: column;
 }
 
 .links{
-    padding: 20px;
+    padding-top: 15px;
 }

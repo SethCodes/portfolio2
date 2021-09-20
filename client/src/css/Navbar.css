@@ -1,0 +1,9 @@
+.navbar{
+    padding: 0 40px;
+    
+}
+.navbar img{
+    padding: 0;
+    max-height: 50px;
+    margin-left: -15px;
+}

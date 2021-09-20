@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* #1B03A3
+#EF476F
+#696D7D */
+
+h1,h2,h3{
+  font-family: 'Roboto', sans-serif;
+  color: #1B03A3;
+}
+h4,h5,h6,h7{
+  font-family: 'Roboto', sans-serif;
+  color: #EF476F;
+}
+p{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #696D7D;
+}
+a{
+  font-family: 'Fira Code', monospace; 
+  color: #ef476f;
+}
