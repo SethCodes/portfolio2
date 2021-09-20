@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/Navbar.css';
 import {Link} from 'react-router-dom';
-import logo from '../images/GBLogoSlim.png';
+import logo from '../images/RBLogoSlim.png';
 
 
 
@@ -26,22 +26,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
+              <a className="nav-link active" aria-current="page" href="#about">
+                about me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
+              <a className="nav-link" href="#portfolio">
+                projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
+              <a className="nav-link" href="#contact">
+                contact
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
+            <a className="btn btn-outline-dark nav-link resume">resume</a>
             </li>
           </ul>
         </div>

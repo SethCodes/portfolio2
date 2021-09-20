@@ -27,8 +27,9 @@ let content = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Volupta
       <div className="jumbotron" id="hero">
         <h7>Hello. My name is</h7>
         <h2 className="name">Seth Stephens.</h2>
-        <h2 className="title ">I build things for the web.</h2>
+        <h2 className="title ">You think it, I code it.</h2>
         <p className="content" style={{color: "black"}}>I am a full stack web developer able to speak human and computer. Currently, I am accepting freelance and employment opportunities while also working with <Link to="/">Kable Academy</Link> to assist in getting new, diverse talent into the tech industy.</p>
+        <button className="btn btn-outline-dark">Check Out My Work</button>
       </div>
 
       {/* about section */}

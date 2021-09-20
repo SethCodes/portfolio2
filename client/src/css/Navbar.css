@@ -7,3 +7,21 @@
     max-height: 50px;
     margin-left: -15px;
 }
+.nav-item{
+    padding-left: 20px;
+}
+.navbar li a:hover{
+    color: #EF476F !important;
+}
+.resume{
+    color: #EF476F !important;
+
+    border: 1px solid red;
+
+}
+
+.resume:hover{
+    transform: scale(1.05);
+    color: #ffffff;
+    background-color: rgba(239, 71, 111, 0.5);
+}

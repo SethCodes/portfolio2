@@ -7,12 +7,26 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    /* justify-content:center; */
+    /* justify-items: center; */
 
 }
 #hero h7{
     font-size: 14px;
     font-family: 'Fira Code', monospace;
 
+}
+#home button{
+    width: 40%;
+    margin-top: 20px;
+    color: #EF476F;
+    border: 1px solid #EF476F;
+
+}
+#home button:hover{
+    /* transform: scale(1.05); */
+    font-size: 1.5rem;
+    background-color: rgba(239, 71, 111, 0.5);
 }
 
 
@@ -23,9 +37,9 @@ letter-spacing: 0.2rem;
 }
 
 .title{
-    /* font-size: 3em;
+    font-size: 3em;
     font-weight: 700;
-    letter-spacing: 0.2rem; */
+    letter-spacing: 0.2rem;
 color:#696D7D;
 padding-bottom: 20px;
 }
@@ -53,4 +67,7 @@ padding-bottom: 20px;
 
 .links{
     padding-top: 15px;
+}
+.links:hover{
+transform: scale(1.5);
 }
