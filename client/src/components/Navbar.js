@@ -31,6 +31,11 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#about">
+                experience
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#portfolio">
                 projects
               </a>
@@ -41,7 +46,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-            <a className="btn btn-outline-dark nav-link resume">resume</a>
+            <a className="btn btn-outline nav-link resume">resume</a>
             </li>
           </ul>
         </div>
