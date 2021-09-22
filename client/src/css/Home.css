@@ -140,11 +140,98 @@ justify-content: center;
 
 
 #portfolio{
-   
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
-#contact{
+#portfolio hr{
+    margin: 50px 0;
+}
+.card{
+    
+    padding: 20px 10px;
+    text-align: right;
+}
+
+.projDiv{
+    position: relative;
+    padding: 40px 0;
+    min-width: 300px;
+}
+
+.projImgDiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+position:relative;
+top: 50px;
+
+}
+.projImg{
+    height: 100%;
+    max-height: 400px;
+    width: 130%;
+    object-fit: cover;
+    object-position: left;
+    overflow: hidden;
+    margin-left: 10px;
+    border-radius: 5px;
+    
     
 }
+.projContentDiv{
+    margin-right: 100px;
+    position: relative;
+    right: 20px;
+    z-index: 5;
+    border: 2px solid rgba(239, 71, 111, 0.5);
+    border-radius: 5px;
+    background-color: white;
+    text-align: right;
+    padding: 20px;
+}
+.tech{
+    display: flex;
+    justify-content: flex-end;
+}
+.techItem{
+    font-family: 'Fira Code', monospace; 
+    color: #ef476f;    padding-left: 10px;
+}
+
+.codeLinks{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+
+}
+.codeLink{
+    padding: 5px;
+}
+.codeLink:hover{
+    transform: scale(1.5);
+    color: #ef476f;
+    
+}
+
+
+
+#contact{
+    padding: 40px 0 80px;
+    
+}
+#contact a{
+    width: 40%;
+    margin-top: 20px;
+    color: #EF476F;
+    border: 1px solid #EF476F;
+}
+#contact a:hover{
+    transform: scale(1.05);
+    /* font-weight: 700; */
+    background-color: rgba(239, 71, 111, 0.5);
+}
+
 #links{
     position: fixed;
     bottom: 50px;
@@ -157,5 +244,51 @@ justify-content: center;
     padding-top: 15px;
 }
 .links:hover{
-transform: scale(1.5);
+    transform: scale(1.5);
 }
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#footer p{
+    font-family: 'Fira Code', monospace; 
+  color: #ef476f;
+}
+
+/* tablet size */
+@media only screen and (max-width: 993px) {
+
+    #home{
+        padding: 0 40px;
+    } 
+    
+    .projImgDiv{
+        display: block;
+        top: 0px;
+        
+        }
+        .projImg{
+            width: 100%;
+            
+            margin-left: 0px;
+            margin-top: 300px;
+            margin: 0px
+        }
+        .projContentDiv{
+            margin-right: 0px;
+            position: relative;
+            right: 0px;
+            margin: 20px 0;
+           
+        }
+
+        #links{
+            display: none;
+        }
+
+
+
+  }
