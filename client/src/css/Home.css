@@ -286,7 +286,15 @@ top: 50px;
         }
 
         #links{
-            display: none;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            left: 0;
+            bottom: 0;
+        }
+        .links{
+            padding: 10px;
         }
 
         .footerLinks{

@@ -207,17 +207,9 @@ const Home = () => {
         </div>
       </div>
 
-      {/* footer section */}
-
-      <div className="" id="footer">
-      <div className="footerLinks">
-
-      </div>
-    <p>Copyright Seth the Dev {year}</p>
-      </div>
 
       {/* links section */}
-      <div className="text-center" id="links" sticky>
+      <div className="" id="links" sticky>
         <h4 className="links">
           <a href="https://www.github.com/sethcodes" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
         </h4>
@@ -230,6 +222,14 @@ const Home = () => {
         <h4 className="links">
           <a href="mailto: seth@seththedev.com"><i className="far fa-envelope"></i></a>
         </h4>
+      </div>
+      {/* footer section */}
+
+      <div className="" id="footer">
+      <div className="footerLinks">
+
+      </div>
+    <p>Copyright Seth the Dev {year}</p>
       </div>
 
     </div>
