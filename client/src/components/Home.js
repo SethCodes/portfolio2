@@ -58,7 +58,7 @@ const Home = () => {
           investing personal time assisting new, diverse talent enter the
           tech industry.
         </p>
-        <button className="btn btn-outline-dark">Check Out My Work</button>
+        <a href="#portfolio" className="btn btn-outline">Check Out My Work</a>
       </div>
 
       <hr />
@@ -250,7 +250,7 @@ const History = ({ index }) => {
           <p>
             The Morley Group offered me an intern position building Unity games
             with C# for{" "}
-            <a href="https://www.evolverangesolutions.com">
+            <a href="https://www.evolverangesolutions.com" target="_blank" rel="noreferrer">
               {" "}
               Evolve Range Solutions
             </a>
@@ -279,7 +279,7 @@ const History = ({ index }) => {
           <p>
             I was about to start submitting applications when my wife heard a
             commerical for{" "}
-            <a href="https://www.kableacademy.com">Kable Academy</a> on the
+            <a href="https://www.kableacademy.com" target="_blank" rel="noreferrer">Kable Academy</a> on the
             radio. The idea of formal training sounded wonderful, but also out
             of reach.
             <br />

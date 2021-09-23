@@ -43,7 +43,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <a className="nav-link" href="mailto: seth@seththedev.com">
                 contact
               </a>
             </li>
