@@ -48,7 +48,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-            <a href={PDF} download="SethStephensResume.pdf" className="btn btn-outline nav-link resume">resume</a>
+            <a href={PDF} download="SethStephensResume.pdf" className="btn btn-outline nav-link resume">dl resume</a>
             </li>
           </ul>
         </div>

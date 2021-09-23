@@ -154,7 +154,7 @@ const Home = () => {
       {/* portfolio section */}
       <div className="" id="portfolio">
         <h1>my work</h1>
-        <p>Thank you for checking out my work. Each piece displayed is a work in progress. If you have any suggestions or constructive critisism, I'm always open to listening. If you would like to see more work, please visit my <a href="https://github.com/SethCodes" target="_blank">Github repository</a>.
+        <p>Thank you for checking out my work. Each piece displayed is a work in progress. If you have any suggestions or constructive critisism, I'm always open to listening. If you would like to see more work, please visit my <a href="https://github.com/SethCodes" target="_blank" rel="noreferrer">Github repository</a>.
         </p>
         <div className="projDiv">
           <div className="row">
@@ -210,24 +210,28 @@ const Home = () => {
       {/* footer section */}
 
       <div className="" id="footer">
+      <div className="footerLinks">
+
+      </div>
     <p>Copyright Seth the Dev {year}</p>
       </div>
 
       {/* links section */}
       <div className="text-center" id="links" sticky>
         <h4 className="links">
-          <a href="/" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+          <a href="https://www.github.com/sethcodes" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
         </h4>
         <h4 className="links">
-          <a href="/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/seththedev" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
         </h4>
         <h4 className="links">
-          <a href="/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/seththedev" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
         </h4>
         <h4 className="links">
           <a href="mailto: seth@seththedev.com"><i className="far fa-envelope"></i></a>
         </h4>
       </div>
+
     </div>
   );
 };
