@@ -53,9 +53,9 @@ const Home = () => {
         <h2 className="name">Seth Stephens.</h2>
         <h2 className="title ">You think it, I build it.</h2>
         <p className="content" style={{ color: "black" }}>
-          I am a full stack web developer who can speak human and computer.
-          Currently, I am accepting freelance and employment opportunities while
-          investing personal time assisting new, diverse talent enter the
+          I am a Full Stack Web Developer who can speak human and computer.
+          Currently, I work as a Software Developer at Stratacache while
+          investing personal time in freelance projects and assisting new, diverse talent enter the
           tech industry.
         </p>
         <a href="#portfolio" className="btn btn-outline">Check Out My Work</a>
@@ -80,7 +80,7 @@ const Home = () => {
                 diverse talent into the tech industry.
                 <br />
                 <br />
-                Currently, I am accepting freelance and employment opportunities
+                Currently, I am accepting freelance opportunities
                 and always look forward to the next great project.
                 <br />
                 <br />

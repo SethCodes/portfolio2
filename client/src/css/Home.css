@@ -259,7 +259,7 @@ top: 50px;
 }
 
 /* tablet size */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 993px) {
 
     #home{
         padding: 0 40px;
