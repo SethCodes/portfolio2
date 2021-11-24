@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PageOne = ({nameOne, noteOne}) => {
+const PageOne = ({clientName, clientNumber, clientEmail, test}) => {
 
 /* 
 1. What does your company do?
@@ -19,12 +19,16 @@ existing website?
         <div className="">
         <h1>Personal Info</h1>
             <div className="group">
-              <label htmlFor="name">Name:</label>
-              <input type="text" onChange={nameOne} name="nameOne" />
+              <label htmlFor="clientName">Your Name:</label>
+              <input type="text" onChange={clientName} name="clientName" />
             </div>
             <div className="group">
-              <label htmlFor="note">Note:</label>
-              <textarea type="textarea" onChange={noteOne} name="noteOne" />
+              <label htmlFor="clientNumber">Note:</label>
+              <textarea type="textarea" onChange={clientNumber} name="clientNumber" />
+            </div>
+            <div className="group">
+              <label htmlFor="clientEmail">Note:</label>
+              <textarea type="textarea" onChange={clientEmail} name="clientEmail" />
             </div>
           </div>
     )

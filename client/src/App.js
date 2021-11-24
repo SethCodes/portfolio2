@@ -4,6 +4,8 @@ import Home from '../src/components/Home';
 import Login from '../src/components/Login';
 import Navbar from '../src/components/Navbar';
 import Resume from '../src/components/Resume';
+import Form from '../src/components/Form';
+
 
 
 
@@ -19,6 +21,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/login" component={Login} />
         <Route path="/resume" component={Resume} />
+        <Route path="/form" component={Form} />
       </Switch>
       
     </div>

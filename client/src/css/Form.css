@@ -1,0 +1,23 @@
+input{
+    margin-top: 5px;
+}
+
+input:focus{
+    outline: none !important;
+    border-radius: 5px;
+    border-color: red;
+    box-shadow: 0 0 10px #719ECE;
+}
+label{
+    color: blue;
+}
+
+.form_buttons_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+}
